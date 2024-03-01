@@ -1,0 +1,24 @@
+/* Write your CSS */
+
+.repoMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.repoMainHeading {
+  font-family: 'Lobster';
+}
+.languageFilterContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.repoItemMainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 90%;
+  max-width: 1110px;
+  margin-top: 20px;
+}

@@ -1,0 +1,40 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.repoItemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  background-color: #f8f8ff;
+  margin: 5px;
+  border-radius: 15px;
+}
+.repoImage {
+  width: 20px;
+  margin: 10px;
+}
+.name {
+  color: #e73959;
+  font-size: 24px;
+}
+.avatarImage {
+  width: 130px;
+  margin-top: 40px;
+}
+.repoDetailsContainer {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+.repoDetailsMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count {
+  margin-right: 50px;
+}
